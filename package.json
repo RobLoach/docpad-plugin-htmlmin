@@ -1,0 +1,46 @@
+{
+  "name": "docpad-plugin-htmlmin",
+  "version": "0.0.1",
+  "description": "Adds support to minify HTML in DocPad.",
+  "license": "MIT",
+  "homepage": "http://github.com/robloach/docpad-plugin-htmlmin",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "html-minifier",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": "Rob Loach (http://robloach.net)",
+  "maintainers": [
+    "Rob Loach (http://roibloach.net)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Rob Loach (http://roibloach.net)"
+  ],
+  "bugs": {
+    "url": "http://github.com/robloach/docpad-plugin-htmlmin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robloach/docpad-plugin-htmlmin.git"
+  },
+  "engines": {
+    "node": ">=0.10",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "html-minifier": "~0.5.4"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "docpad": ">=6.37 <7"
+  },
+  "main": "./out/htmlmin.plugin.js",
+  "scripts": {
+    "test": "node ./out/htmlmin.test.js"
+  }
+}

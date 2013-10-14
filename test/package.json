@@ -1,0 +1,8 @@
+{
+  "name": "docpad-plugin-htmlmin-testsite",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "docpad-plugin-eco": "latest"
+  }
+}
