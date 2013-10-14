@@ -1,5 +1,7 @@
 ---
 title: 'HTML-Minifier Demo'
+htmlmin:
+  removeComments: true
 ---
 <html>
   <head>
@@ -7,7 +9,7 @@ title: 'HTML-Minifier Demo'
   </head>
   <body>
     <h1><%= @document.title %></h1>
-    <!-- This is an HTML comment, which will stay since it's in docpad.coffee. -->
+    <!-- This HTML comment will be removed due to the document options. -->
     <p>This is a demo of HTML Minifier on DocPad.</p>
   </body>
 </html>
