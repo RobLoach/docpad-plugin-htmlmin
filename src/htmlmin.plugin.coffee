@@ -34,17 +34,19 @@ module.exports = (BasePlugin) ->
     # Render some content
     render: (opts,next) ->
       # Prepare
-      {inExtension,outExtension,file} = opts
+      {inExtension,outExtension,templateData} = opts
       config = @config
 
       # Upper case the text document's content if it is using the convention html.textile
       if inExtension in ['htmlmin'] and outExtension in ['html', null]
         # Prepare
-        htmlminOptions =
-          filename: file.get('fullPath')
+        htmlminOptions = config.htmlminOptions
 
-        # Extend
-        htmlminOptions[key] = value for own key,value of config.htmlminOptions if config.htmlminOptions
+        # Allow overriding from templateData
+        htmlminOptions[key] = value for own key,value of templateData.htmlmin if templateData.htmlmin
+
+        # Allow overriding using the document options
+        htmlminOptions[key] = value for own key,value of templateData.document.htmlmin if templateData.document.htmlmin
 
         # Render
         opts.content = @htmlmin(opts.content, htmlminOptions);
