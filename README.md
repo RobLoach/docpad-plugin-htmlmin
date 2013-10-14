@@ -1,14 +1,17 @@
 # [HTML-Minifier](http://kangax.github.io/html-minifier/) Plugin for [DocPad](http://docpad.org)
 
-Adds support for the [HTML-Minifier](http://kangax.github.io/html-minifier/) to [DocPad](https://docpad.org)
+[![NPM version](https://badge.fury.io/js/docpad-plugin-htmlmin.png)](http://badge.fury.io/js/docpad-plugin-htmlmin "View this project on NPM")
+
+Allows minifying HTML, using the [HTML-Minifier](http://kangax.github.io/html-minifier/),
+from within [DocPad](https://docpad.org).
 
 Convention:  `.html.htmlmin.anything`
 
 
 ## Install
 
-```
-npm install --save docpad-plugin-htmlmin
+``` bash
+$ npm install --save docpad-plugin-htmlmin
 ```
 
 
