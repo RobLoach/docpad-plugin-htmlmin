@@ -1,9 +1,9 @@
-# [HTML-Minifier](http://kangax.github.io/html-minifier/) Plugin for [DocPad](http://docpad.org)
+# [HTML-Minifier](http://github.com/kangax/html-minifier) Plugin for [DocPad](http://docpad.org)
 
 [![Build Status](https://secure.travis-ci.org/RobLoach/docpad-plugin-htmlmin.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-htmlmin "Check this project's build status on TravisCI")
 [![NPM version](https://badge.fury.io/js/docpad-plugin-htmlmin.png)](http://badge.fury.io/js/docpad-plugin-htmlmin "View this project on NPM")
 
-Allows minifying HTML, using the [HTML-Minifier](http://kangax.github.io/html-minifier/),
+Allows minifying HTML, using the [HTML-Minifier](http://github.com/kangax/html-minifier),
 from within [DocPad](https://docpad.org).
 
 Convention:  `.html.htmlmin.anything`

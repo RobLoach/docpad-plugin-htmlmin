@@ -7,7 +7,7 @@
 
 ## Bug reports
 
-[Post your bug report on the GitHub Issue Tracker for this project](https://github.com/docpad/docpad-plugin-jade/issues)
+[Post your bug report on the GitHub Issue Tracker for this project](https://github.com/robloach/docpad-plugin-htmlmin/issues)
 
 
 ## Development
