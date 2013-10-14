@@ -15,18 +15,17 @@
   ],
   "author": "Rob Loach (http://robloach.net)",
   "maintainers": [
-    "Rob Loach (http://roibloach.net)"
+    "Rob Loach (http://robloach.net)"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Rob Loach (http://roibloach.net)"
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
     "url": "http://github.com/robloach/docpad-plugin-htmlmin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robloach/docpad-plugin-htmlmin.git"
+    "url": "https://github.com/RobLoach/docpad-plugin-htmlmin.git"
   },
   "engines": {
     "node": ">=0.10",

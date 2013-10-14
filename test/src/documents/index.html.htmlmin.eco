@@ -1,7 +1,6 @@
 ---
 title: 'HTML-Minifier Demo'
 ---
-
 <html>
   <head>
     <title><%= @document.title.toUpperCase() %></title>
