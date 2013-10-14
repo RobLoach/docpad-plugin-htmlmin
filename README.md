@@ -2,7 +2,7 @@
 
 Adds support for the [HTML-Minifier](http://kangax.github.io/html-minifier/) to [DocPad](https://docpad.org)
 
-Convention:  `.htmlmin.anything`
+Convention:  `.html.htmlmin.anything`
 
 
 ## Install
