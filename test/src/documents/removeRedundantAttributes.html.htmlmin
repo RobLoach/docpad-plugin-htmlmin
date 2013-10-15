@@ -1,0 +1,6 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeRedundantAttributes: true
+---
+<input type="  TEXT  " value="foo">

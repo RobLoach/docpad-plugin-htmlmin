@@ -1,0 +1,6 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeScriptTypeAttributes: true
+---
+<script type="text/javascript">alert(1)</script>

@@ -1,0 +1,6 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  collapseBooleanAttributes: true
+---
+<input CHECKED = "checked" readonly="readonly">

@@ -1,0 +1,15 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeIgnored: true
+  removeComments: true
+  collapseWhitespace: true
+---
+This is the start.
+<? ... ?>
+<!-- This is the middle, and a comment. -->
+No comment, but middle.
+<?= ... ?>
+<?php ... ?>
+<?xml ... ?>
+Hello, this is the end!

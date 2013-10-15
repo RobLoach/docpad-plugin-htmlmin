@@ -1,0 +1,7 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeComments: false
+  removeCDATASectionsFromCDATA: true
+---
+<script>/*<![CDATA[*/alert(1)/*]]>*/</script>

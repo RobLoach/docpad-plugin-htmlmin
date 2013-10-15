@@ -1,0 +1,7 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeEmptyAttributes: true
+---
+<p id="" class="" STYLE=" " title="
+" lang="" dir="">x</p>
