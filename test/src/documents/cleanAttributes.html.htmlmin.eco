@@ -1,0 +1,6 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  cleanAttributes: true
+---
+<p class=" foo bar  ">foo bar baz</p>

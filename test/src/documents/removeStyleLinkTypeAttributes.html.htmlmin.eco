@@ -1,0 +1,6 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeStyleLinkTypeAttributes: true
+---
+<style type="text/css">.foo { color: red }</style>

@@ -1,0 +1,8 @@
+---
+title: 'HTML-Minifier Demo'
+htmlmin:
+  removeEmptyElements: true
+---
+<p></p>
+
+<p>foo<span>bar</span><span></span></p>
