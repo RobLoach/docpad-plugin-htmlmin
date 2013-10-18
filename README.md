@@ -16,31 +16,34 @@ $ docpad install htmlmin
 ```
 
 
-## Options
+## Configure
 
-You can modify how HTML minification takes place by changing the `templateData`
-values in your *docpad.js* or *docpad.coffee* file:
+### Defaults
 
-``` coffeescript
-  templateData:
+The default configuration for this plugin is the equivalant of adding the following to your [DocPad configuration file](http://docpad.org/docs/config):
+
+``` coffee
+  plugins:
     htmlmin:
-      removeComments: true
-      removeCommentsFromCDATA: false
-      removeCDATASectionsFromCDATA: false
-      collapseWhitespace: true
-      collapseBooleanAttributes: false
-      removeAttributeQuotes: false
-      removeRedundantAttributes: false
-      useShortDoctype: false
-      removeEmptyAttributes: false
-      removeOptionalTags: false
-      removeEmptyElements: false
+      htmlminOptions:
+        removeComments: true
+        removeCommentsFromCDATA: false
+        removeCDATASectionsFromCDATA: false
+        collapseWhitespace: true
+        collapseBooleanAttributes: false
+        removeAttributeQuotes: false
+        removeRedundantAttributes: false
+        useShortDoctype: false
+        removeEmptyAttributes: false
+        removeOptionalTags: false
+        removeEmptyElements: false
 ```
 
-It is also possible to change the options on a template by template basis by
-modifying the values in your template file itself:
+### Template configuration
 
-``` eco
+It is possible to override the default configuration on a per-template basis:
+
+``` html
 ---
 title: 'HTML-Minifier Demo'
 htmlmin:

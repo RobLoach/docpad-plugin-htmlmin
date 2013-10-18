@@ -1,0 +1,11 @@
+---
+title: 'HTML-Minifier Demo'
+---
+<html>
+  <head>
+    <title>HTML Minifier for DocPad</title>
+  </head>
+  <body>
+    <!-- This HTML comment will be removed, due to docpad.coffee. -->
+  </body>
+</html>

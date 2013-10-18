@@ -35,15 +35,12 @@ module.exports = (BasePlugin) ->
     render: (opts,next) ->
       # Prepare
       {inExtension,outExtension,templateData} = opts
-      config = @config
+      config = @getConfig()
 
       # Upper case the text document's content if it is using the convention html.textile
       if inExtension in ['htmlmin'] and outExtension in ['html', null]
         # Prepare
         htmlminOptions = config.htmlminOptions
-
-        # Allow overriding from templateData
-        htmlminOptions[key] = value for own key,value of templateData.htmlmin if templateData.htmlmin
 
         # Allow overriding using the document options
         htmlminOptions[key] = value for own key,value of templateData.document.htmlmin if templateData.document.htmlmin

@@ -2,6 +2,8 @@ module.exports = {
   templateData:
     site:
       title: "HTML-Minifier Plugin for DocPad"
+  plugins:
     htmlmin:
-      removeComments: false
+      htmlminOptions:
+        removeComments: false
 }
