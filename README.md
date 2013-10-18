@@ -20,7 +20,9 @@ $ docpad install htmlmin
 
 ### Defaults
 
-The default configuration for this plugin is the equivalant of adding the following [html-minifier options](http://perfectionkills.com/experimenting-with-html-minifier/#options) to your [DocPad configuration file](http://docpad.org/docs/config):
+The default configuration for this plugin is the equivalant of adding the
+following [html-minifier options](http://perfectionkills.com/experimenting-with-html-minifier/#options)
+to your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
   plugins:
