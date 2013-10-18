@@ -46,7 +46,10 @@ module.exports = (BasePlugin) ->
         htmlminOptions[key] = value for own key,value of templateData.document.htmlmin if templateData.document.htmlmin
 
         # Render
-        opts.content = @htmlmin(opts.content, htmlminOptions);
+        try
+          opts.content = @htmlmin(opts.content, htmlminOptions);
+        catch err
+          return next(err)
 
       # Done, return back to DocPad
       return next()
