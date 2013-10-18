@@ -20,7 +20,7 @@ $ docpad install htmlmin
 
 ### Defaults
 
-The default configuration for this plugin is the equivalant of adding the following to your [DocPad configuration file](http://docpad.org/docs/config):
+The default configuration for this plugin is the equivalant of adding the following [html-minifier options](http://perfectionkills.com/experimenting-with-html-minifier/#options) to your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
   plugins:
@@ -39,7 +39,7 @@ The default configuration for this plugin is the equivalant of adding the follow
         removeEmptyElements: false
 ```
 
-### Template configuration
+### Template Configuration
 
 It is possible to override the default configuration on a per-template basis:
 
