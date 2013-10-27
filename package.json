@@ -28,18 +28,19 @@
     "url": "https://github.com/RobLoach/docpad-plugin-htmlmin.git"
   },
   "engines": {
-    "node": ">=0.10",
-    "docpad": "6.x"
+    "node": ">=0.10"
   },
   "dependencies": {
     "html-minifier": "~0.5.4"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2",
-    "docpad": ">=6.37 <7"
+    "coffee-script": "~1.6.2"
   },
   "main": "./out/htmlmin.plugin.js",
   "scripts": {
     "test": "node ./out/htmlmin.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
   }
 }

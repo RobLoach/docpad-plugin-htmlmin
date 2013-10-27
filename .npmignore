@@ -1,7 +1,5 @@
 .travis*
 Makefile
-Cakefile
-History.md
 
 src/
 out/*.tester.*
