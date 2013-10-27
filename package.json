@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-htmlmin",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Adds support to minify HTML in DocPad.",
   "license": "MIT",
   "homepage": "http://github.com/robloach/docpad-plugin-htmlmin",
