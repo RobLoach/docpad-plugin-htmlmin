@@ -1,5 +1,8 @@
 ## History
 
+- v2.1.2 November 9th, 2013
+  - Update to latest Base project files
+
 - v2.1.1 October 27th, 2013
   - Update to latest Base project files
 
