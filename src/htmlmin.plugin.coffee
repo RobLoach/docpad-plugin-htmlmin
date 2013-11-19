@@ -43,7 +43,9 @@ module.exports = (BasePlugin) ->
         htmlminOptions = config.htmlminOptions
 
         # Allow overriding using the document options
-        htmlminOptions[key] = value for own key,value of templateData.document.htmlmin if templateData.document.htmlmin
+        if templateData.document.htmlmin or false
+          for own key, value of templateData.document.htmlmin
+            htmlminOptions[key] = value
 
         # Render
         try

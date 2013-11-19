@@ -1,5 +1,4 @@
 ---
-title: 'HTML-Minifier Demo'
 htmlmin:
   removeIgnored: true
   removeComments: true

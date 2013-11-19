@@ -6,6 +6,6 @@ title: 'HTML-Minifier Demo'
     <title>HTML Minifier for DocPad</title>
   </head>
   <body>
-    <!-- This HTML comment will be removed, due to docpad.coffee. -->
+    <!-- This HTML comment will not be removed, due to docpad.coffee. -->
   </body>
 </html>
