@@ -7,18 +7,17 @@ module.exports = (BasePlugin) ->
 
     # Configuration
     config:
-      htmlminOptions:
-        removeComments: true
-        removeCommentsFromCDATA: false
-        removeCDATASectionsFromCDATA: false
-        collapseWhitespace: true
-        collapseBooleanAttributes: false
-        removeAttributeQuotes: false
-        removeRedundantAttributes: false
-        useShortDoctype: false
-        removeEmptyAttributes: false
-        removeOptionalTags: false
-        removeEmptyElements: false
+      removeComments: true
+      removeCommentsFromCDATA: false
+      removeCDATASectionsFromCDATA: false
+      collapseWhitespace: true
+      collapseBooleanAttributes: false
+      removeAttributeQuotes: false
+      removeRedundantAttributes: false
+      useShortDoctype: false
+      removeEmptyAttributes: false
+      removeOptionalTags: false
+      removeEmptyElements: false
 
     # Constructor
     constructor: ->
@@ -35,21 +34,20 @@ module.exports = (BasePlugin) ->
     render: (opts,next) ->
       # Prepare
       {inExtension,outExtension,templateData} = opts
-      config = @getConfig()
 
       # Upper case the text document's content if it is using the convention html.textile
       if inExtension in ['htmlmin'] and outExtension in ['html', null]
         # Prepare
-        htmlminOptions = config.htmlminOptions
+        config = @getConfig()
 
         # Allow overriding using the document options
         if templateData.document.htmlmin or false
           for own key, value of templateData.document.htmlmin
-            htmlminOptions[key] = value
+            config[key] = value
 
         # Render
         try
-          opts.content = @htmlmin(opts.content, htmlminOptions);
+          opts.content = @htmlmin(opts.content, config);
         catch err
           return next(err)
 

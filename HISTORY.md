@@ -1,6 +1,8 @@
 ## History
 
-- v2.x November 19th, 2013
+- v2.2.0 December 6th, 2013
+  - Updated documetation
+  - Eased use of configuration options
   - Clean up the source
 
 - v2.1.2 November 9th, 2013
