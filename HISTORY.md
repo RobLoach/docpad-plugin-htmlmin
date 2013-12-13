@@ -1,5 +1,8 @@
 ## History
 
+- v2.3.0 December 13th, 2013
+  - Act on .html rather than .html.htmlmin
+
 - v2.2.0 December 6th, 2013
   - Updated documetation
   - Eased use of configuration options

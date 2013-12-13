@@ -5,10 +5,10 @@
 [![Gittip button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Support this project using Gittip")
 [![Flattr button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Support this project using Flattr")
 
-Allows minification of HTML, using the [HTML-Minifier](http://github.com/kangax/html-minifier),
-from within [DocPad](https://docpad.org).
+Allows minification of HTML in [DocPad](https://docpad.org), using
+[HTML-Minifier](http://github.com/kangax/html-minifier).
 
-Convention:  `.html.htmlmin.anything`
+Convention:  `.html.anything`
 
 
 ## Install

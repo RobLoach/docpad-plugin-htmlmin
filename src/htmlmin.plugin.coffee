@@ -31,23 +31,27 @@ module.exports = (BasePlugin) ->
       @
 
     # Render some content
-    render: (opts,next) ->
+    renderDocument: (opts,next) ->
       # Prepare
-      {inExtension,outExtension,templateData} = opts
+      {extension,templateData,file,content} = opts
 
-      # Upper case the text document's content if it is using the convention html.textile
-      if inExtension in ['htmlmin'] and outExtension in ['html', null]
+      # Ensure we are acting on a HTML document.
+      if extension == 'html' and file.type == 'document'
         # Prepare
-        config = @getConfig()
+        htmlminOptions = {}
 
-        # Allow overriding using the document options
+        # Allow use of global config options.
+        for own key, value of @getConfig()
+          htmlminOptions[key] = value
+
+        # Allow overriding using the document options.
         if templateData.document.htmlmin or false
           for own key, value of templateData.document.htmlmin
-            config[key] = value
+            htmlminOptions[key] = value
 
         # Render
         try
-          opts.content = @htmlmin(opts.content, config);
+          opts.content = @htmlmin(content, htmlminOptions);
         catch err
           return next(err)
 
