@@ -19,6 +19,11 @@ module.exports = (BasePlugin) ->
       removeOptionalTags: false
       removeEmptyElements: false
 
+      # Disable on development environments.
+      environments:
+        development:
+          enabled: false
+
     # Constructor
     constructor: ->
       # Prepare

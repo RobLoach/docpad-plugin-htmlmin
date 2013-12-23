@@ -4,3 +4,8 @@ templateData:
 plugins:
   htmlmin:
     removeComments: false
+
+    # Enable on the development environment, since we're testing it.
+    environments:
+      development:
+        enabled: true
