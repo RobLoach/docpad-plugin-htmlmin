@@ -1,5 +1,9 @@
 ## History
 
+- v2.3.1 December 23th, 2013
+  - Disable on development environments
+  - Updated documentation
+
 - v2.3.0 December 13th, 2013
   - Act on .html rather than .html.htmlmin
 
