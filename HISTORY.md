@@ -1,6 +1,6 @@
 ## History
 
-- v2.x
+- v2.4.0 February 19th, 2014
 	- Updated dependencies
 	- Added minification only on `htmlmin: true` meta-data
 		- Thanks to [Benjamin Lupton](https://github.com/balupton) for [issue #8](http://github.com/RobLoach/docpad-plugin-htmlmin/issues/8)

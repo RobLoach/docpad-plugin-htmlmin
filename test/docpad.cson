@@ -1,11 +1,11 @@
 templateData:
-  site:
-    title: 'HTML-Minifier Plugin for DocPad'
+	site:
+		title: 'HTML-Minifier Plugin for DocPad'
 plugins:
-  htmlmin:
-    removeComments: false
+	htmlmin:
+		removeComments: false
 
-    # Enable on the development environment, since we're testing it.
-    environments:
-      development:
-        enabled: true
+		# Enable on the development environment, since we're testing it.
+		environments:
+			development:
+				enabled: true
