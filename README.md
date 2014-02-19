@@ -17,7 +17,16 @@ Allows minification of HTML in [DocPad](https://docpad.org), using
 Convention:  `.html.anything`
 
 
-<!-- INSTALL -->
+<!-- INSTALL/ -->
+
+## Install
+
+### [Node](http://nodejs.org/)
+- Use: `require('docpad-plugin-htmlmin')`
+- Install: `npm install --save docpad-plugin-htmlmin`
+
+<!-- /INSTALL -->
+
 
 ## Usage
 
@@ -117,7 +126,7 @@ No sponsors yet! Will you be the first?
 These amazing people have contributed code to this project:
 
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=balupton)
-- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=RobLoach)
+- [Rob Loach](http://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/docpad-plugin-htmlmin/blob/master/CONTRIBUTING.md#files)
 
