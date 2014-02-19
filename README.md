@@ -17,11 +17,7 @@ Allows minification of HTML in [DocPad](https://docpad.org), using
 Convention:  `.html.anything`
 
 
-## Install
-
-```bash
-$ docpad install htmlmin
-```
+<!-- INSTALL -->
 
 
 ## Configure
