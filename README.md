@@ -19,14 +19,26 @@ Convention:  `.html.anything`
 
 <!-- INSTALL -->
 
+## Usage
+
+Create an HTML file with the `htmlmin` option:
+
+``` html
+---
+htmlmin: true
+---
+<h1>HTML-Minifier Demo</h1>
+<p>This file will be minified.</p>
+
+<!-- This HTML comment will be removed when minified. -->
+```
+
 
 ## Configure
 
 ### Defaults
 
-The default configuration for this plugin is the equivalant of adding the
-following [html-minifier options](http://perfectionkills.com/experimenting-with-html-minifier/#options)
-to your [DocPad configuration file](http://docpad.org/docs/config):
+The default configuration for this plugin is the equivalant of adding the following [html-minifier options](http://perfectionkills.com/experimenting-with-html-minifier/#options) to your [DocPad configuration file](http://docpad.org/docs/config):
 
 ``` coffee
   plugins:
@@ -59,14 +71,10 @@ title: 'HTML-Minifier Demo'
 htmlmin:
   removeComments: false
 ---
-<html>
-  <head>
-    <title>HTML Minifier for DocPad</title>
-  </head>
-  <body>
-    <!-- This HTML comment will not be removed. -->
-  </body>
-</html>
+<h1>HTML-Minifier Demo</h1>
+<p>This file will be minified.</p>
+
+<!-- This HTML comment will not removed when minified. -->
 ```
 
 

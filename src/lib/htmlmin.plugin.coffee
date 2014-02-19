@@ -38,25 +38,22 @@ module.exports = (BasePlugin) ->
     # Render some content
     renderDocument: (opts,next) ->
       # Prepare
-      {extension,templateData,file,content} = opts
+      config = @getConfig()
+      {extension, file, content} = opts
+      htmlminOpts = file.get('htmlmin')
 
       # Ensure we are acting on a HTML document.
-      if extension == 'html' and file.type == 'document'
+      if extension == 'html' and file.type == 'document' and htmlminOpts
         # Prepare
-        htmlminOptions = {}
+        htmlminOpts = {} if typeof htmlminOpts == 'boolean'
 
         # Allow use of global config options.
-        for own key, value of @getConfig()
-          htmlminOptions[key] = value
-
-        # Allow overriding using the document options.
-        if templateData.document.htmlmin or false
-          for own key, value of templateData.document.htmlmin
-            htmlminOptions[key] = value
+        for own key, value of config when key isnt 'environments'
+          htmlminOpts[key] ?= value
 
         # Render
         try
-          opts.content = @htmlmin(content, htmlminOptions);
+          opts.content = @htmlmin(content, htmlminOpts);
         catch err
           return next(err)
 
