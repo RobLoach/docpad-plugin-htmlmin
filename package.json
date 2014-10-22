@@ -35,7 +35,6 @@
     "type": "git",
     "url": "https://github.com/RobLoach/docpad-plugin-htmlmin.git"
   },
-  "repo": "RobLoach/docpad-plugin-htmlmin",
   "engines": {
     "node": ">=0.4",
     "docpad": "6.x"
