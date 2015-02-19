@@ -1,5 +1,9 @@
 ## History
 
+- v2.4.1 February 19th, 2015
+	- Updated dependencies
+	- Happy version anniversary!
+
 - v2.4.0 February 19th, 2014
 	- Updated dependencies
 	- Added minification only on `htmlmin: true` meta-data
