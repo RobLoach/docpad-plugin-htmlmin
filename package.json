@@ -15,6 +15,7 @@
   "badges": {
     "travis": true,
     "npm": true,
+    "npmdownloads": true,
     "gittip": "RobLoach",
     "flattr": "2257574/RobLoach",
     "david": true,
@@ -40,12 +41,12 @@
     "docpad": "6.x"
   },
   "dependencies": {
-    "html-minifier": "~0.5.4"
+    "html-minifier": "^0.7.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.1",
-    "docpad": ">=6.37 <7",
-    "projectz": "~0.3.10"
+    "coffee-script": "~1.9.0",
+    "docpad": "~6.71.1",
+    "projectz": "~0.4.3"
   },
   "main": "./out/lib/htmlmin.plugin.js",
   "scripts": {
@@ -56,5 +57,9 @@
   },
   "peerDependencies": {
     "docpad": "6"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src",
+    "BISCOTTO_SRC_PATH": "src"
   }
 }
