@@ -1,7 +1,7 @@
 {
   "title": "HTML-Minifier Plugin for DocPad",
   "name": "docpad-plugin-htmlmin",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Adds support to minify HTML in DocPad.",
   "license": {
     "type": "MIT"
