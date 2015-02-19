@@ -16,8 +16,8 @@
     "travis": true,
     "npm": true,
     "npmdownloads": true,
-    "gittip": "RobLoach",
-    "flattr": "2257574/RobLoach",
+    "gittip": false,
+    "flattr": false,
     "david": true,
     "daviddev": false
   },
@@ -27,6 +27,7 @@
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "paleite (https://github.com/paleite)",
     "Rob Loach (http://github.com/RobLoach)"
   ],
   "bugs": {

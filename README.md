@@ -2,11 +2,11 @@
 
 <!-- BADGES/ -->
 
-[![Build Status](http://img.shields.io/travis-ci/RobLoach/docpad-plugin-htmlmin.png?branch=master)](http://travis-ci.org/RobLoach/docpad-plugin-htmlmin "Check this project's build status on TravisCI")
-[![NPM version](http://badge.fury.io/js/docpad-plugin-htmlmin.png)](https://npmjs.org/package/docpad-plugin-htmlmin "View this project on NPM")
-[![Dependency Status](https://david-dm.org/RobLoach/docpad-plugin-htmlmin.png?theme=shields.io)](https://david-dm.org/RobLoach/docpad-plugin-htmlmin)<br/>
-[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
-[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
+[![Build Status](https://img.shields.io/travis/RobLoach/docpad-plugin-htmlmin/master.svg)](http://travis-ci.org/RobLoach/docpad-plugin-htmlmin "Check this project's build status on TravisCI")
+[![NPM version](https://img.shields.io/npm/v/docpad-plugin-htmlmin.svg)](https://npmjs.org/package/docpad-plugin-htmlmin "View this project on NPM")
+[![NPM downloads](https://img.shields.io/npm/dm/docpad-plugin-htmlmin.svg)](https://npmjs.org/package/docpad-plugin-htmlmin "View this project on NPM")
+[![Dependency Status](https://img.shields.io/david/true.svg)](https://david-dm.org/true)<br/>
+
 
 <!-- /BADGES -->
 
@@ -21,9 +21,9 @@ Convention:  `.html.anything`
 
 ## Install
 
-### [Node](http://nodejs.org/)
-- Use: `require('docpad-plugin-htmlmin')`
-- Install: `npm install --save docpad-plugin-htmlmin`
+``` bash
+docpad install htmlmin
+```
 
 <!-- /INSTALL -->
 
@@ -118,14 +118,14 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-[![Gittip donate button](http://img.shields.io/gittip/RobLoach.png)](https://www.gittip.com/RobLoach/ "Donate weekly to this project using Gittip")
-[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/2257574/RobLoach "Donate monthly to this project using Flattr")
+
 
 ### Contributors
 
 These amazing people have contributed code to this project:
 
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=balupton)
+- [paleite](https://github.com/paleite) — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=paleite)
 - [Rob Loach](http://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/docpad-plugin-htmlmin/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/docpad-plugin-htmlmin/blob/master/CONTRIBUTING.md#files)
