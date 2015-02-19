@@ -18,8 +18,8 @@
     "npmdownloads": true,
     "gittip": false,
     "flattr": false,
-    "david": true,
-    "daviddev": false
+    "david": "RobLoach/docpad-plugin-htmlmin",
+    "daviddev": "RobLoach/docpad-plugin-htmlmin"
   },
   "author": "Rob Loach (http://github.com/RobLoach)",
   "maintainers": [

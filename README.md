@@ -5,7 +5,8 @@
 [![Build Status](https://img.shields.io/travis/RobLoach/docpad-plugin-htmlmin/master.svg)](http://travis-ci.org/RobLoach/docpad-plugin-htmlmin "Check this project's build status on TravisCI")
 [![NPM version](https://img.shields.io/npm/v/docpad-plugin-htmlmin.svg)](https://npmjs.org/package/docpad-plugin-htmlmin "View this project on NPM")
 [![NPM downloads](https://img.shields.io/npm/dm/docpad-plugin-htmlmin.svg)](https://npmjs.org/package/docpad-plugin-htmlmin "View this project on NPM")
-[![Dependency Status](https://img.shields.io/david/true.svg)](https://david-dm.org/true)<br/>
+[![Dependency Status](https://img.shields.io/david/RobLoach/docpad-plugin-htmlmin.svg)](https://david-dm.org/RobLoach/docpad-plugin-htmlmin)
+[![Dev Dependency Status](https://img.shields.io/david/dev/RobLoach/docpad-plugin-htmlmin.svg)](https://david-dm.org/RobLoach/docpad-plugin-htmlmin#info=devDependencies)<br/>
 
 
 <!-- /BADGES -->
