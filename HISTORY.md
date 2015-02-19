@@ -1,6 +1,6 @@
 ## History
 
-- v2.4.1 February 19th, 2015
+- v2.4.2 February 19th, 2015
 	- Updated dependencies
 	- Happy version anniversary!
 
